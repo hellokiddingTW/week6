@@ -1,0 +1,182 @@
+////font-family////
+.SF-Re{
+    font-family:SF-Pro-Text-Regular;
+}
+
+.SF-Bold{
+    font-family: SF-Pro-Text-Bold;
+}
+
+.SF-light{
+    font-family:SF-Pro-Text-Light;
+}
+
+////font-size////
+.fz-sm{
+    font-size: 14px; 
+}
+.fz-2{
+    font-size: 0.75rem;
+}
+
+.fz-3{
+    font-size: 1rem;
+}
+
+.fz-4{
+    font-size: 1.25rem;
+}
+
+.fz-5{
+    font-size:1.5rem;
+}
+
+.fz-6{
+    font-size:1.75rem;
+}
+
+.fz-7{
+    font-size:2rem;
+}
+
+.fz-8{
+    font-size:2.25rem;
+}
+
+.fz-9{
+    font-size:2.5rem;
+}
+
+
+
+
+
+.mr-l{
+    margin-right: 20px; 
+}
+
+.mr-m{
+    margin-right: 12px;  
+}
+
+.mb-xl{
+    margin-bottom: 52px
+}
+
+/////
+
+.lh-sm {
+    line-height: 1.18;
+}
+
+.border-2{
+    border-width:2px;
+    border-style:solid
+}
+
+
+
+.p-gap{
+    padding:0.25rem 0.5rem
+}
+
+.pd-sm{
+    padding:0.75rem;
+}
+
+.py-xxl{
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.textHide{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.textThrough{
+    text-decoration: line-through;
+}
+
+.logoSize{
+    width: 128px;
+    height: 38px;
+}
+
+.logoPic{
+    background:url('https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume@2x.png?raw=true')center no-repeat;
+    background-size:cover;
+}
+
+.logoPic-white{
+    background:url('https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite@2x.png?raw=true')center no-repeat;
+    background-size:cover;
+}
+
+.img-fluid{ 
+    height:auto;
+    width:100%;
+    max-width: 100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vh-100{
+    height:100vh;
+}
+
+.active-bottom{
+        display:inline-block;
+        border-bottom:2px solid $primary;
+}
+
+.customInput{
+    vertical-align: -webkit-baseline-middle;
+    input[type=checkbox] {
+        margin-right: 4px;
+        cursor: pointer;
+        position: relative; 
+        min-width: 15px;
+        min-height: 15px;
+        border-radius: 3px;
+        -webkit-appearance: none;
+        border:1px solid $secondary;
+        top:2px
+      }
+      
+      input[type=checkbox]:after {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        content: " "; 
+        color: #fff;
+        display: inline-block;
+        visibility: visible;
+        padding: 0px 3px;  
+        top:-2px;
+        left:-2px;
+        border-radius: 3px;
+        
+
+      }
+
+    input[type=checkbox]:checked:after {
+        content: "✓";
+        font-size: 2px;
+        font-weight: bold;
+        background-color:$primary;
+        
+      }
+
+      input[type=checkbox]:focus {
+       outline:none;
+      }
+
+}

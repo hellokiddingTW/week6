@@ -1,0 +1,52 @@
+.cardIndex{
+    img{
+        margin-bottom:0.5rem;
+        height:350px;
+    }
+    .cardTitle{
+       
+        h5{
+            font-size: 1.5rem;
+            font-family: SF-Pro-Rounded-Semibold;
+        }
+        a{
+            color:#000000;
+            &:hover{
+                color:#916019;
+            }
+        }
+    }
+    .cost{
+        margin-right:0.5rem;
+        display:inline-block;
+    }
+    .costOriginal{
+        text-decoration: line-through;
+        display:inline-block;
+    }
+
+    @include media-breakpoint-up(sm) { 
+        img{
+            height:100vh;
+        }
+     }
+
+    @include media-breakpoint-up(md) { 
+        img{
+            height: 540px;
+        }
+        
+    }
+  
+}
+
+.cardProduct{
+    .cardtitle{
+        h4{
+            color:#000000;
+            &:hover{
+                color:$primary
+            }
+        }
+    }
+}
